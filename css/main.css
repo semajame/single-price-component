@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(204, 43%, 93%);
+}
+
+main {
+  width: 700px;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.header__container {
+  padding: 2rem 2.5rem;
+  background-color: #fff;
+}
+.header__container h1 {
+  color: hsl(179, 62%, 43%);
+}
+.header__container h2 {
+  color: hsl(71, 73%, 54%);
+  padding: 1rem 0;
+}
+.header__container p {
+  color: hsl(218, 22%, 67%);
+}
+
+.content {
+  display: flex;
+}
+.content .content__left {
+  background-color: hsl(179, 67%, 36%);
+  padding: 2rem 3rem 0 3rem;
+  width: 50%;
+}
+.content .content__left h2 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.content .content__left h3 {
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 0.5rem 0 0 0;
+}
+.content .content__left h3 span {
+  color: hsl(218, 22%, 67%);
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+.content .content__left p {
+  color: #fff;
+}
+.content .content__left .sign__up__container {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.content .content__left .sign__up__container a {
+  border-radius: 4px;
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: 3px 9px 15px -3px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.8rem 35%;
+}
+.content .content__right {
+  padding: 2rem 2rem 2rem 3rem;
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+}
+.content .content__right h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.content .content__right ul {
+  padding: 0;
+}
+.content .content__right li {
+  list-style: none;
+  color: hsl(204, 43%, 93%);
+}
+
+@media screen and (max-width: 595px) {
+  main {
+    margin: 0 1rem;
+  }
+  .header__container {
+    padding: 2rem 1.5rem;
+  }
+  .header__container h1 {
+    font-size: 1.5rem;
+  }
+  .header__container h2 {
+    font-size: 1rem;
+  }
+  .content {
+    display: block;
+  }
+  .content .content__left {
+    width: 100%;
+    padding-bottom: 2.5rem;
+  }
+  .content .content__right {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
